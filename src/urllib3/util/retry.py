@@ -598,4 +598,4 @@ class Retry(object):
 
 
 # For backwards compatibility (equivalent to pre-v1.9):
-Retry.DEFAULT = Retry(3)
+Retry.DEFAULT = Retry(10)
